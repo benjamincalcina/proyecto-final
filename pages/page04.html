@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es" data-bs-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Redes Informáticas</title>
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+
+  <style>
+    body {
+      animation: fadeIn 1s ease-in;
+      background: #ffffff;
+      color: #212529;
+    }
+
+    header {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .card {
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    h3 {
+      color: #0d6efd;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container py-4">
+
+    <!-- HEADER -->
+    <header>
+      <h1 class="fw-bold text-primary">🌐 REDES INFORMÁTICAS</h1>
+      <p class="text-muted">Comunicación entre dispositivos y sistemas</p>
+    </header>
+
+    <!-- 1 INTRODUCCIÓN -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3>📘 Introducción</h3>
+        <p>
+          Las redes informáticas son un conjunto de dispositivos conectados entre sí que permiten compartir información,
+          recursos y servicios. Estas redes pueden ser locales (LAN), de área amplia (WAN) o incluso globales como Internet.
+        </p>
+        <p>
+          Gracias a las redes, hoy es posible comunicarse en tiempo real, acceder a información desde cualquier lugar
+          y trabajar de manera colaborativa.
+        </p>
+      </div>
+    </div>
+
+   <!-- 2 OSI -->
+<div class="card shadow mb-4">
+  <div class="card-body">
+    <h3>🧠 Modelo OSI y TCP/IP</h3>
+
+    <p><b>Modelo OSI:</b> divide la comunicación en 7 capas:</p>
+    <ul>
+      <li>Física</li>
+      <li>Enlace de datos</li>
+      <li>Red</li>
+      <li>Transporte</li>
+      <li>Sesión</li>
+      <li>Presentación</li>
+      <li>Aplicación</li>
+    </ul>
+
+    <!-- IMAGEN OSI -->
+    <div class="text-center my-3">
+      <img src="../img/metodo-osi.jpg" class="img-fluid rounded shadow" width="300" alt="Modelo OSI">
+    </div>
+
+    <p><b>Modelo TCP/IP:</b> es el modelo real de internet y tiene 4 capas:</p>
+    <ul>
+      <li>Acceso a red</li>
+      <li>Internet</li>
+      <li>Transporte</li>
+      <li>Aplicación</li>
+    </ul>
+
+    <!-- IMAGEN TCP/IP -->
+    <div class="text-center my-3">
+      <img src="../img/TCP-IP.webp" class="img-fluid rounded shadow" width="300" alt="Modelo TCP/IP">
+    </div>
+
+  </div>
+</div>
+
+    <!-- 3 PROTOCOLOS -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3>📡 Protocolos</h3>
+        <p>
+          Los protocolos son reglas que permiten la comunicación entre dispositivos en una red.
+        </p>
+        <ul>
+          <li><b>HTTP/HTTPS:</b> navegación web</li>
+          <li><b>FTP:</b> transferencia de archivos</li>
+          <li><b>TCP:</b> comunicación confiable</li>
+          <li><b>UDP:</b> comunicación rápida</li>
+          <li><b>IP:</b> identifica dispositivos en la red</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 4 TOPOLOGIAS -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3>🔗 Topologías de red</h3>
+        <p>
+          Las topologías definen cómo están conectados los dispositivos en una red.
+        </p>
+        <ul>
+          <li><b>Bus:</b> un solo cable principal</li>
+          <li><b>Estrella:</b> todos conectados a un punto central</li>
+          <li><b>Anillo:</b> conexión circular</li>
+          <li><b>Malla:</b> todos conectados entre sí</li>
+          <li><b>Árbol:</b> estructura jerárquica</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5 SOFTWARE -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3>💻 Software de red</h3>
+        <p>
+          El software de red permite configurar, administrar y simular redes.
+        </p>
+        <p>
+          Un ejemplo es <b>Cisco Packet Tracer</b>, que permite crear redes virtuales y practicar configuraciones sin usar equipos reales.
+        </p>
+      </div>
+    </div>
+
+    <!-- 6 DISPOSITIVOS -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3>📶 Dispositivos de red</h3>
+
+        <ul>
+          <li><b>Router:</b> conecta redes y da acceso a internet</li>
+          <li><b>Switch:</b> conecta dispositivos dentro de una red</li>
+          <li><b>Módem:</b> convierte la señal de internet</li>
+          <li><b>Access Point:</b> permite conexión WiFi</li>
+        </ul>
+
+        <div class="text-center">
+          <img src="../img/router.jpg" width="150" class="m-2 rounded shadow">
+          <img src="../img/switch.jpg" width="150" class="m-2 rounded shadow">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 7 CABLEADO -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3>🎨 Código de colores UTP</h3>
+
+        <p><b>Norma T568A:</b></p>
+        <ol>
+          <li>Blanco/Verde</li>
+          <li>Verde</li>
+          <li>Blanco/Naranja</li>
+          <li>Azul</li>
+          <li>Blanco/Azul</li>
+          <li>Naranja</li>
+          <li>Blanco/Marrón</li>
+          <li>Marrón</li>
+        </ol>
+
+        <p><b>Norma T568B (más usada):</b></p>
+        <ol>
+          <li>Blanco/Naranja</li>
+          <li>Naranja</li>
+          <li>Blanco/Verde</li>
+          <li>Azul</li>
+          <li>Blanco/Azul</li>
+          <li>Verde</li>
+          <li>Blanco/Marrón</li>
+          <li>Marrón</li>
+        </ol>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</body>
+</html>

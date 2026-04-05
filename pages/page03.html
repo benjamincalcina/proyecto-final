@@ -1,0 +1,165 @@
+<!-- HTML (PAGE 03 PRO FINAL)
+===================================== -->
+<!doctype html>
+<html lang="es" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Software</title>
+
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Estilos -->
+  <link href="../css/style.css" rel="stylesheet" />
+
+  <!-- ESTILOS PRO (animaciones + hover) -->
+  <style>
+    body {
+      animation: fadeIn 1s ease-in;
+    }
+
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 15px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container py-4">
+
+    <!-- HEADER -->
+    <div class="text-center mb-4">
+      <h1 class="fw-bold text-primary">💻 SOFTWARE</h1>
+      <p class="text-muted">Parte lógica del computador</p>
+    </div>
+
+    <!-- QUE ES -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3 class="card-title"><i class="bi bi-info-circle"></i> ¿Qué es el Software?</h3>
+        <p>
+          El software es el conjunto de programas, instrucciones y datos que permiten el funcionamiento de una computadora.
+          A diferencia del hardware, el software es intangible, es decir, no se puede tocar.
+        </p>
+      </div>
+    </div>
+    <div class="text-center my-3">
+  <img src="../img/software_vs.png" class="img-fluid rounded shadow" alt="Software vs Hardware">
+</div>
+
+    <!-- TIPOS -->
+    <div class="row">
+
+      <div class="col-md-4 mb-3">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h4 class="text-primary"><i class="bi bi-cpu"></i> Sistema</h4>
+            <p>
+              Controla el hardware y permite que el sistema funcione correctamente.
+            </p>
+            <small class="text-muted">Ej: Windows, Linux, macOS</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h4 class="text-success"><i class="bi bi-window"></i> Aplicación</h4>
+            <p>
+              Permite al usuario realizar tareas específicas como escribir, navegar o jugar.
+            </p>
+            <small class="text-muted">Ej: Word, Chrome, WhatsApp</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h4 class="text-warning"><i class="bi bi-code-slash"></i> Programación</h4>
+            <p>
+              Herramientas utilizadas para crear otros programas y aplicaciones.
+            </p>
+            <small class="text-muted">Ej: Visual Studio Code, compiladores</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TIPOS EXTRA -->
+    <div class="card shadow mt-4 mb-4">
+      <div class="card-body">
+        <h3><i class="bi bi-diagram-3"></i> Tipos según licencia</h3>
+        <p><b>Software Libre:</b> se puede usar y modificar (Ej: Linux)</p>
+        <p><b>Software Propietario:</b> tiene restricciones (Ej: Windows)</p>
+      </div>
+    </div>
+
+    <!-- IMPORTANCIA -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3><i class="bi bi-star"></i> Importancia</h3>
+        <p>
+          El software es esencial porque permite que los dispositivos electrónicos funcionen y realicen tareas útiles
+          como estudiar, trabajar, comunicarse y entretenerse.
+        </p>
+      </div>
+    </div>
+
+    <!-- HISTORIA -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h3><i class="bi bi-clock-history"></i> Historia</h3>
+        <p>
+          El software ha evolucionado desde programas simples hasta sistemas complejos como inteligencia artificial,
+          aplicaciones móviles y plataformas modernas que usamos diariamente.
+        </p>
+      </div>
+    </div>
+
+    <!-- EJEMPLOS -->
+    <div class="card shadow">
+      <div class="card-body">
+        <h3><i class="bi bi-list"></i> Ejemplos</h3>
+        <ul>
+          <li>Sistemas operativos (Windows, Linux)</li>
+          <li>Navegadores (Google Chrome, Firefox)</li>
+          <li>Aplicaciones (WhatsApp, Word)</li>
+          <li>Videojuegos</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
